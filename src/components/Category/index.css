@@ -1,0 +1,24 @@
+.category-container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  box-shadow: 0px 1px 0px 0px #b4b8bf;
+  list-style-type: none;
+}
+li {
+  height: 55px;
+}
+.category {
+  font-size: 20px;
+  font-family: roboto;
+  border-width: 0px;
+  height: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 5px;
+}
+.active {
+  color: rgb(187, 82, 82);
+}
